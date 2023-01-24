@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --violet: #CB79EB;
+    --blue: #A3ECDF;
+    --yellow: #FBF29D;
+}
+body{
+    overflow: hidden;
+    font-size: 20px;
+    
+}
+
+header,nav,main,footer{ 
+    padding: 0 200px;
+}
+
+    header{
+               
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--violet);
+    height: 8vh;
+    font-family: 'courier prime',italic;
+
+   
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--yellow);
+    height: 17vh;
+    font-family: 'Pacifico',sans-serif; 
+
+    font-size: 1.2em;
+
+    
+                  
+}
+main{ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--blue);
+    height: 58vh;
+    font-family: 'pacifico';
+        }
+
+footer{
+            text-align: center;
+            justify-content: center;
+            font-family: 'pacifico';
+            font-size: 1.3em;
+            justify-content: space-between;
+            background-color: var(--yellow);
+            height: 17vh;
+        
+        }
